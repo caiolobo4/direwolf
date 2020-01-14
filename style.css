@@ -1,0 +1,83 @@
+/*Estilos Gerais*/
+body {
+	font-family: TT Norms Light;
+	color: #30648c;
+}
+
+
+/*Header*/
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 25px 0;
+	box-shadow: 1px 1px 1px 1px #ddd
+}
+
+.header_menu {
+	text-align: right;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 25px;
+	text-transform: uppercase;
+	margin-top: 19px
+}
+
+.header_menu ul li a {
+	text-decoration: none;
+	color: #30648c;
+	padding: 40px 0;
+}
+
+.header_menu ul li a:hover {
+	border-bottom: 4px solid;
+	padding: 37px 0;
+}
+
+
+
+/*Destaques*/
+
+.destaques {
+	margin-top: 104px;
+}
+
+.carrossel {
+	background-image: url("../img/cyberpunk2077.jpg");
+	height: 390px;
+	color: #fff;
+	font-family: TT Norms ExtraBold;
+	font-size: 2.5em;
+	line-height: 50px;
+}
+
+.carrossel h1 {
+	background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,212,255,0) 50%);
+	height: 390px;
+	width: 700px;
+	padding: 250px 200px 20px 50px;
+}
+
+.hypesemana {
+	background: url("../img/ff15.jpg") center;
+	height: 390px;
+	color: #fff;
+	font-family: TT Norms ExtraBold;
+	font-size: 1.22em;
+	text-align: center;
+	padding: 280px 0px 0px 0px;
+	line-height: 25px;
+}
+
+.hypesemana h2 {
+	background-color: rgba(48,100,140,0.7);
+	height: 110px;
+	width: 220px;
+	padding: 20px 15px;
+}
+
+
+
